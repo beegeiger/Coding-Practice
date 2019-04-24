@@ -110,6 +110,13 @@ def make_board(board_string):
 
 def find(board, word):
     """Can word be found in board?"""
+    board_ind = 0
+    word_ind = 0
+    used = []
+    def check_next(used, cur_index, word):
+        
+
+    for let in word:
 
 
 if __name__ == '__main__':
